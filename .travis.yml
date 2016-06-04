@@ -5,9 +5,10 @@ language: python
 python:
   - 3.5
 
-os:
-  - linux
-  - osx
+matrix:
+  - os: linux
+  - os: osx
+    language: generic
 
 cache:
   directories:
