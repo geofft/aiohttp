@@ -6,8 +6,8 @@ http client/server for asyncio
   :width: 64px
   :alt: aiohttp logo
 
-.. image:: https://travis-ci.org/KeepSafe/aiohttp.svg?branch=master
-  :target:  https://travis-ci.org/KeepSafe/aiohttp
+.. image:: https://travis-ci.org/geofft/aiohttp.svg?branch=master
+  :target:  https://travis-ci.org/geofft/aiohttp
   :align: right
 
 .. image:: https://coveralls.io/repos/KeepSafe/aiohttp/badge.svg?branch=master&service=github
