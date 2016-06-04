@@ -19,8 +19,9 @@ before_cache:
   - rm -f $HOME/.cache/pip/log/debug.log
 
 install:
-  - id
-  - type pip
+  - pip install virtualenv
+  - virtualenv .venv
+  - source .venv/bin/activate
   - pip install --upgrade pip wheel
   - pip install --upgrade setuptools
   - pip install -r requirements-ci.txt
